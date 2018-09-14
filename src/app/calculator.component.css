@@ -23,7 +23,7 @@
 
 }
 .numbers span {
-  display: inline-block; padding: 15px 0px; background: #e5e5e5; color: blue;
+  display: inline-block; padding: 15px 0px; background: #e5e5e5; color: #71aeff;
   border: 1px solid #a0a0a0; font-weight: normal; margin-right: 10px;
   margin-bottom: 10px; font-size: 20px; width: 40px; text-align: center;
   cursor: pointer;
@@ -35,14 +35,14 @@
   cursor: pointer;
 }
 #equalTo {
-  display:block; background: blue; font-size: 20px; font-weight: bold;
+  display:block; background: #71aeff; font-size: 20px; font-weight: bold;
   color: #ffffff; padding: 40px 0px; width: 50px; text-align: center;
-  position: absolute; bottom: 10px; right: 0px; border: 1px solid blue;
+  position: absolute; bottom: 10px; right: 0px; border: 1px solid #71aeff;
   cursor: pointer;
 }
 
 .numbers span:hover, .operation span:hover, #equalTo:hover {
-  border-color: yellow;
+  border-color: #808080;
 }
 
 .f_l {float: left;}
